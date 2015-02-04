@@ -1,0 +1,10 @@
+User-agent : *
+Allow : /index.php
+Allow : /ebooks.php
+Allow : /article.php?page=presentation
+Allow : /article.php?page=argent-sur-internet
+
+Disallow : /erreur.php
+Disallow : /contact.php
+
+Sitemap: <lien url="http://argent-web.fr/sitemap.xml">http://argent-web.fr/sitemap.xml</lien>

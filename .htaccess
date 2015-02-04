@@ -1,0 +1,9 @@
+ErrorDocument 404 http://argent-web.fr/erreur
+
+RewriteEngine on
+RewriteRule ([a-z]+)=([a-zA-Z0-9\-]+) $1.php?page=$2
+RewriteRule accueil index.php
+RewriteRule techniques techniques.php
+RewriteRule foire-aux-questions faq.php
+RewriteRule contact contact.php
+RewriteRule erreur erreur.php
